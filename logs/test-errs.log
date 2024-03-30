@@ -1,0 +1,57 @@
+-- TYPE MISMATCH ------ /home/ian/Documents/fp/project/src/Model/PostsConfig.elm
+
+Something is off with the 4th branch of this `case` expression:
+
+58|             None
+                ^^^^
+This `None` value is a:
+
+    SortBy
+
+But the type annotation on `sortFromString` says it should be:
+
+    Maybe SortBy
+
+-- TYPE MISMATCH ------ /home/ian/Documents/fp/project/src/Model/PostsConfig.elm
+
+Something is off with the 3rd branch of this `case` expression:
+
+55|             Posted
+                ^^^^^^
+This `Posted` value is a:
+
+    SortBy
+
+But the type annotation on `sortFromString` says it should be:
+
+    Maybe SortBy
+
+-- TYPE MISMATCH ------ /home/ian/Documents/fp/project/src/Model/PostsConfig.elm
+
+Something is off with the 2nd branch of this `case` expression:
+
+52|             Title
+                ^^^^^
+This `Title` value is a:
+
+    SortBy
+
+But the type annotation on `sortFromString` says it should be:
+
+    Maybe SortBy
+
+-- TYPE MISMATCH ------ /home/ian/Documents/fp/project/src/Model/PostsConfig.elm
+
+Something is off with the 1st branch of this `case` expression:
+
+49|             Score
+                ^^^^^
+This `Score` value is a:
+
+    SortBy
+
+But the type annotation on `sortFromString` says it should be:
+
+    Maybe SortBy
+
+`elm make` failed with exit code 1.
